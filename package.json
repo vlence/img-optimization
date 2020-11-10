@@ -1,0 +1,24 @@
+{
+  "name": "img-optimization",
+  "version": "1.0.0",
+  "description": "Please do not use it for production.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vlence/img-optimization.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vlence/img-optimization/issues"
+  },
+  "homepage": "https://github.com/vlence/img-optimization#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "sharp": "^0.26.2"
+  }
+}
