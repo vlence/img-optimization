@@ -21,8 +21,8 @@ app.use(function (req, res) {
   }
 
   sharpi.resize(width, height, {fit: (width && height) ? 'fill' : 'cover'}).toBuffer(function (err, data, info) {
-    res.contentType(info.format);
-    res.setHeader('content-length', info.size);
+    info && res.contentType(info.format);
+    info && res.setHeader('content-length', info.size);
 
     res.end(data, 'binary');
   });
